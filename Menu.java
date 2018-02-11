@@ -1,4 +1,4 @@
-// for github lab - UPDATE
+// for github lab - UPDATE 2
 import java.util.Scanner;
 
 public class Menu{
