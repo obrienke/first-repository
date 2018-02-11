@@ -1,0 +1,9 @@
+git clone https://github.com/obrienke/first-repository.git
+cd first-repository/
+git status
+-- create a file i first-repository directory
+git init
+git add .
+git commit -m "First commit from desktop"
+git push origin master
+
