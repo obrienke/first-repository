@@ -1,4 +1,4 @@
-git clone https://github.com/obrienke/first-repository.git
+git clone https://github.com/obrienke/first-repository.git #only need to run this once and all files copied down to folder you run this command from. Beauty of it, is that is you come back to this folder another day, and open a git bash session, then just type git pull, of course make sure you have the right branch checked out.
 cd first-repository/
 git checkout first-branch
 # create a file
