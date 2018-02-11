@@ -22,6 +22,7 @@ git remote -v # this tells you which user you are making changes under.
 
 e.g. https://github.com/obrienke/first-repository.git
 
+
 Note obrienke. If you want to change this to another user, a collaborator, you can then then issue this command:
 
 git remote set-url origin https://github.com/obrienke1/first-repository.git
