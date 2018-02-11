@@ -18,3 +18,19 @@ git config user.name "obrienke1"
 
 git config user.name # will print out the name of the user.
 
+git remote -v # this tells you which user you are making changes under.
+
+e.g. https://github.com/obrienke/first-repository.git
+
+Note obrienke. If you want to change this to another user, a collaborator, you can then then issue this command:
+
+git remote set-url origin https://github.com/obrienke1/first-repository.git
+
+Note: Changed it to obrienke1. Run this command again to check it is ok:
+
+git remote -v
+
+You should get https://github.com/obrienke1/first-repository.git
+
+Now try and push a change and see if on the repository in your browser it is flagged as change made by obrienke1, instead of obrienke.
+
