@@ -8,7 +8,7 @@ git push origin first-branch
 
 
 git checkout master
-git pull               
+git pull # this command can be run at anytime to pull from repository on github onto the desktop to ensure your directory on your pc has the latest working version               
 git merge first-branch #merges the changes from first branch to master.      
 git push origin master 
 
