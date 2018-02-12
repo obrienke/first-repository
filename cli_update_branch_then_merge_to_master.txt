@@ -4,7 +4,7 @@ git checkout first-branch
 # create a file
 git add .
 git commit -m "TEST NEW FILE ADDED TO BRANCH"
-git push origin first-branch
+git push origin first-branch # may get prompted for a login at this point
 
 
 git checkout master
