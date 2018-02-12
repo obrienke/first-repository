@@ -1,0 +1,11 @@
+# For the class:
+
+cd /c/users/kobrien/downloads
+git clone https://github.com/obrienke/first-repository.git #only need to run this once and all files copied down to folder you run this command from. Beauty of it, is that is you come back to this folder another day, and open a git bash session, then just type git pull, of course make sure you have the right branch checked out.
+cd first-repository
+git checkout first-branch # not needed as will stick with master.
+# create a file or modify an existing file
+git add .
+git status
+git commit -m "Basic commands the class needs to know"
+git push origin first-branch # may get prompted for a login at this point
