@@ -8,4 +8,5 @@ git checkout first-branch # not needed as will stick with master.
 git add .
 git status
 git commit -m "Basic commands the class needs to know"
-git push origin first-branch # may get prompted for a login at this point
+git push origin master #if had checked out another branch then update master e.g. first-branch
+# may get prompted for a login at this point
