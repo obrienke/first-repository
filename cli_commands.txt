@@ -7,3 +7,7 @@ git add .
 git commit -m "First commit from desktop"
 git push origin master
 
+# change to c drive for example:
+
+cd /c/
+
