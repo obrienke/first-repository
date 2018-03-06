@@ -1,22 +1,22 @@
 public class Methods{
 
   public static void main(String[] args){
-    Methods m = new Methods();
-    m.method1();		  
+    Methods methods = new Methods();
+	methods.method1();
+	Index.main(null);
   }
   
   public void method1(){
-    System.out.println("Method 1 here and I am calling method 2");
+    System.out.println("Method 1 here, I am calling method2.");
 	method2();
   }
-
   public void method2(){
-    System.out.println("Hi Method1, from Method 2, I am calling method 3");
-    method3();
-  }  
-  
-  public void method3(){
-    System.out.println("Hi method 2, from method 3, tell method 1 I say hello.");
+    System.out.println("Hi method1, from method2, I am calling method3.");
+	method3();
+	System.out.println("Method3 says hello to you method1.");
   }
-  
+  public void method3(){
+    System.out.println("Hi method2, from method3, tell method1 I say hello.");
+  }
+
 }
